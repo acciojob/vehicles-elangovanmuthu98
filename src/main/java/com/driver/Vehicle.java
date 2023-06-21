@@ -2,9 +2,9 @@ package com.driver;
 
 public class Vehicle {
 
-    private String name;
-   private int currentSpeed;
-    private int currentDirection;
+    public String name;
+    public int currentSpeed;
+    public int currentDirection;
     public  void setName(String name)
     {
         this.name=name;

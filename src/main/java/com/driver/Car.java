@@ -58,7 +58,9 @@ public class Car extends Vehicle {
     public void setType(String type) {
         this.type = type;
     }
-
+public boolean isManual(){
+        return this.isManual;
+}
     public void setManual(boolean manual) {
         isManual = manual;
     }
